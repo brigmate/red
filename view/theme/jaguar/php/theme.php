@@ -1,15 +1,15 @@
 <?php
 
 /**
- *   * Name: brigmate
+ *   * Name: jaguar
  *   * Description: derived from redbasic
  *   * Version: 1.0
- *   * Author: brigmate
+ *   * Author: Josh Cox
  *   * Compat: Red [*]
  *
  */
 
-function brigmate_init(&$a) {
+function jaguar_init(&$a) {
 
     $a->theme_info['extends'] = 'redbasic';
 

@@ -1,0 +1,77 @@
+.hide-comments-outer,
+.wall-item-content-wrapper.comment {
+	border-left: 10px solid $comment_border_colour;
+	border-right: 10px solid $comment_border_colour;
+	border-bottom: 2px solid $comment_border_colour;
+}
+.toplevel_item > .wall-item-border-bottom {
+	width: 100%;
+	border-bottom: 10px solid $comment_border_colour;
+}
+.wall-item-comment-wrapper {
+	border-left: 10px solid $comment_border_colour;
+	border-right: 10px solid $comment_border_colour;
+}
+.wall-item-tools {
+	width: auto;
+	margin-top: 0px;
+}
+.thread-wrapper.toplevel_item {
+	box-shadow: 2px 2px 5px 3px #BBB;
+}
+.comment-edit-photo {
+	margin: 7px;
+}
+.comment-edit-text-empty,
+.comment-edit-text-full {
+	margin: 7px 3px 7px 7px;
+}
+.comment-edit-photo img {
+	width: 31px;
+}
+.btn-sm {
+	padding: 3px 7px;
+}
+.btn-group {
+	display: block;
+}
+.btn-group > .btn + .dropdown-toggle {
+	padding-left: 7px;
+	padding-right: 7px;
+}
+.comment .btn-sm {
+	padding: 1px 3px;
+}
+.comment .btn-group > .btn + .dropdown-toggle {
+	padding-left: 3px;
+	padding-right: 3px;
+}
+.wall-item-photo-wrapper {
+	margin-bottom: 10px;
+}
+.comment .wall-item-photo-wrapper {
+	margin-bottom: 5px;
+}
+.wall-item-content {
+	clear: none;
+}
+
+.wall-item-info {
+	margin-right: 10px;
+}
+.comment .wall-item-info {
+	margin-right: 19px;
+}
+.wall-item-likes {
+    color: #777777;
+    font-size: 0.8em;
+}
+.wall-item-likes > .icon-thumbs-up-alt {
+	font-size: 0.9em;
+}
+.wall-item-ago .icon-ok {
+	margin-right: 1px;
+}
+.wall-item-body {
+	margin: 5px 0;
+}
